@@ -3,6 +3,10 @@ body {
   margin: 20px;
 }
 
+body.paused {
+  user-select: none;
+}
+
 img, video {
   display: block;
   max-width: 100%;
